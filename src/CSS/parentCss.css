@@ -1,0 +1,131 @@
+/* ProductList.css */
+
+.product-list-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .product-list th,
+  .product-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-list th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .product-list tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .product-list button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-list button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* ShoppingCart.css */
+  
+  .shopping-cart-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .shopping-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .shopping-cart-list {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .shopping-cart-list th,
+  .shopping-cart-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .shopping-cart-list th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .shopping-cart-list tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .shopping-cart-list button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shopping-cart-list button:hover {
+    background-color: #c82333;
+  }
+  .shopping-cart-remove button{
+    background-color: green;
+  }
+  .shopping-cart-remove button:hover{
+    background-color: lightgreen;
+  }
+  
+  .total-price {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  /* parentCss.css */
+
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    background-color: #df5d1d;
+    height: 600vh;
+  }
+  
+  .heading {
+    background-color: #7a1200;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px 8px 0 0;
+  }
+  
