@@ -50,7 +50,7 @@ const ShoppingCart = ({ cartItems, removeFromCart, clearCart }) => {
       <div className="shopping-cart-remove">
         <button onClick={() => clearCart()}>Clear Cart</button>
       </div>
-      <Temp data={<p>Hello</p>} data2={()=> <h2>Hello I am Aman</h2>}>Hi i am children</Temp>
+      {/* <Temp data={<p>Hello</p>} data2={()=> <h2>Hello I am Aman</h2>}>Hi i am children</Temp> */}
     </div>
   );
 };
