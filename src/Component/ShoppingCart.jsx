@@ -1,17 +1,17 @@
 import React from "react";
 
 
-//Composition example
-const Temp=(props)=>{
-  return <>
-    <p>{props?.children}</p>
-    <h1>{props?.data}</h1>
-    <props.data2></props.data2>
-    <h3>{props.data2}</h3>
-    <h4>{props.data2()}</h4>
+// //Composition example
+// const Temp=(props)=>{
+//   return <>
+//     <p>{props?.children}</p>
+//     <h1>{props?.data}</h1>
+//     <props.data2></props.data2>
+//     <h3>{props.data2}</h3>
+//     <h4>{props.data2()}</h4>
 
-  </>
-}
+//   </>
+// }
 
 const ShoppingCart = ({ cartItems, removeFromCart, clearCart }) => {
   const totalPrice = cartItems.reduce(
@@ -50,7 +50,7 @@ const ShoppingCart = ({ cartItems, removeFromCart, clearCart }) => {
       <div className="shopping-cart-remove">
         <button onClick={() => clearCart()}>Clear Cart</button>
       </div>
-      {/* <Temp data={<p>Hello</p>} data2={()=> <h2>Hello I am Aman</h2>}>Hi i am children</Temp> */}
+      
     </div>
   );
 };

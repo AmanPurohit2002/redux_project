@@ -2,7 +2,51 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## About Project
+## Live Demo
+[Shopping-Cart Demo](https://shoppingcarty.netlify.app/)
+
+## Shopping-Cart-App
+A shopping cart app made with React, Redux and CSS. This is a learning project for the usage of Redux.
+
+## About Project 
+Welcome Folks. This is my internship project in which I have to make the shopping cart page using Redux. This is a learning project for the usage of Redux.
+
+## Features
+1) Shopping cart functionality \
+2) Ability to add/remove items from the cart \
+3) Cart page which calculates the total price of products in the cart \
+
+## Tech Stack
+React\
+Redux\
+
+## Running Locally
+To run this project locally, you'll need to follow these steps:
+
+1. Clone the repository to your local machine:
+
+
+git clone https://github.com/YourUsername/Shopping-Cart-App.git
+Change into the new directory:
+
+
+
+cd Shopping-Cart-App
+
+
+Install the required dependencies:
+npm install
+
+Start the development server:
+npm start
+
+
+Now, you should be able to view the app in your browser by navigating to http://localhost:3000.
+
+Feel free to submit any issues or feature requests you may have, and happy coding!
+
+
+
 
 
 
