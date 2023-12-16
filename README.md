@@ -12,13 +12,13 @@ A shopping cart app made with React, Redux and CSS. This is a learning project f
 Welcome Folks. This is my internship project in which I have to make the shopping cart page using Redux. This is a learning project for the usage of Redux.
 
 ## Features
-1) Shopping cart functionality \
-2) Ability to add/remove items from the cart \
-3) Cart page which calculates the total price of products in the cart \
+1) Shopping cart functionality
+2) Ability to add/remove items from the cart
+3) Cart page which calculates the total price of products in the cart
 
 ## Tech Stack
-React\
-Redux\
+1) React
+2) Redux
 
 ## Running Locally
 To run this project locally, you'll need to follow these steps:
@@ -26,7 +26,7 @@ To run this project locally, you'll need to follow these steps:
 1. Clone the repository to your local machine:
 
 
-git clone https://github.com/YourUsername/Shopping-Cart-App.git
+git clone https://github.com/AmanPurohit2002/redux_project.git
 Change into the new directory:
 
 
